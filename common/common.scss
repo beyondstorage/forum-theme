@@ -1,0 +1,70 @@
+:root {
+  // --primary: #4898F7;
+  --header_background: #4898F7;
+  --quaternary: #2B99FF;
+  --quaternary-low: rgba(43, 153, 255, 0.1);
+  --primary-medium: #31383E;
+}
+
+.d-header {
+  height: 280px;
+  background-image: url(#{$header_bg});
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d-header .title {
+  padding-top: 32px;
+  align-items: flex-start;
+}
+
+.d-header>.wrap .contents {
+  align-items: flex-start;
+}
+
+.d-header .panel {
+  margin-top: 32px;
+}
+
+.d-header .login-button,
+.d-header .sign-up-button {
+  padding: 8px 20px;
+
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.d-header .sign-up-button:hover {
+  background-color: #3a7fd2;
+}
+
+.d-header .login-button {
+  border-color: #31383E;
+  background-color: #31383E;
+}
+
+.d-header .login-button:hover {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.nav-pills>li>a {
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.list-controls .combo-box .combo-box-header,
+.navigation-controls .btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.category-breadcrumb>li:first-child {
+  margin-right: 2rem;
+}
+
+.btn-social,
+.modal-footer .btn {
+  border-radius: 4px;
+}

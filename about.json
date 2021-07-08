@@ -1,5 +1,5 @@
 {
-  "name": "Default",
+  "name": "BeyondTheme",
   "component": false,
   "license_url": null,
   "about_url": null,
@@ -8,6 +8,7 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "header_bg": "assets/header_bg.svg"
   },
   "color_schemes": {
     "Light": {
@@ -15,8 +16,8 @@
       "secondary": "ffffff",
       "tertiary": "0088cc",
       "quaternary": "e45735",
-      "header_background": "ffffff",
-      "header_primary": "333333",
+      "header_background": "4898F7",
+      "header_primary": "4898F7",
       "highlight": "ffff4d",
       "danger": "e45735",
       "success": "009900",
