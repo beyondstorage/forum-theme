@@ -1,6 +1,6 @@
 {
-  "author": "zhouyang@yunify.com",
-  "license": "MIT",
+  "author": "beyondstorage",
+  "license": "Apache 2.0",
   "devDependencies": {
     "eslint-config-discourse": "latest"
   }
